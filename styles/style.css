@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+
+}
+
+
+
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: 400;
+    margin-block: 0;
+    margin-inline: -12px;
+    
+}
+
+h2 {
+    font-family: 'Bellefair', serif;
+    font-size: 100px;
+    color: #fff;
+}
+
+h3 {
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #fff;
+}
+
+h4 {
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: #0B0D17;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
+
+h5 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.725px;
+    color: #D0D6F9;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.subheading1 {
+    font-family: 'Bellefair', serif;
+    font-size: 28px;
+    color: #fff;
+}
+
+.subheading2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4.35px;
+    color: #fff;
+}
+
+.nav-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 4.7px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.body-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    position: absolute; 
+    top: 40px;
+    left: 55px;
+    height: 96px;
+}
+
+.logo--area {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 64px;
+    
+}
+
+.hrz--line {
+    width: 473px;
+    opacity: 0.25;
+    position: relative;
+    z-index: 999;
+}
+
+.menu-area nav ul {
+    list-style-type: none ;
+    display: flex;
+
+}
+
+.menu-area {
+    width: 57.63vw;
+    height: 96px;
+    background-color: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    top: 40px;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-area nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit
+}
+
+.menu-area nav ul{
+    height: inherit;
+    margin: 0;
+
+}
+
+.menu-area nav ul li {
+    margin-right: calc(57.63vw * 0.0578);
+    display: flex;
+    align-items: center;
+    height: calc(100% - 3px);
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+.menu-area nav ul li:hover, 
+.menu-active{
+    border-bottom: 3px solid #fff;
+}
+
+.menu-area nav ul li span {
+    margin-right: calc(57.63vw * 0.01325);
+    font-weight: bold;
+}
+
+
+
+
+.home-body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/home/background-home-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 1;
+}
+
+.home-content {
+    width: 77.08vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.home-content .text-area{
+    width: calc(0.333333 * 100vw);
+    margin-bottom: calc(100vh * 0.14555);
+    
+}
+
+
+.explore-button {
+    width: calc(100vw * 0.3125);
+    height: calc(100vw * 0.3125);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    margin-bottom: 20px;
+    transition: all ease .7s;
+}
+
+.visible{
+    background-color: rgba(255, 255, 255, 0.1036);
+}
+
+.explore-button-white{
+    width: calc(100vw * 0.1903);
+    height: calc(100vw * 0.1903);
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.destination-body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/destination/background-destination-desktop.jpg');
+    background-position: center;
+    background-size: cover;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+.page-active{
+    display: flex;
+}
